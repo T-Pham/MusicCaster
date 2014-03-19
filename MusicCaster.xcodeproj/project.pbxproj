@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		971A9A5F18D9C60800599610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A9A5E18D9C60800599610 /* Foundation.framework */; };
+		971A9A6118D9C60800599610 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A9A6018D9C60800599610 /* CoreGraphics.framework */; };
+		971A9A6318D9C60800599610 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A9A6218D9C60800599610 /* UIKit.framework */; };
+		971A9A6918D9C60800599610 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 971A9A6718D9C60800599610 /* InfoPlist.strings */; };
+		971A9A6B18D9C60800599610 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 971A9A6A18D9C60800599610 /* main.m */; };
+		971A9A6F18D9C60800599610 /* TPMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 971A9A6E18D9C60800599610 /* TPMAppDelegate.m */; };
+		971A9A7118D9C60800599610 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971A9A7018D9C60800599610 /* Images.xcassets */; };
+		971A9A7818D9C60800599610 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A9A7718D9C60800599610 /* XCTest.framework */; };
+		971A9A7918D9C60800599610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A9A5E18D9C60800599610 /* Foundation.framework */; };
+		971A9A7A18D9C60800599610 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A9A6218D9C60800599610 /* UIKit.framework */; };
+		971A9A8218D9C60800599610 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 971A9A8018D9C60800599610 /* InfoPlist.strings */; };
+		971A9A8418D9C60800599610 /* MusicCasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 971A9A8318D9C60800599610 /* MusicCasterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		971A9A7B18D9C60800599610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 971A9A5318D9C60800599610 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 971A9A5A18D9C60800599610;
+			remoteInfo = MusicCaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		971A9A5B18D9C60800599610 /* MusicCaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicCaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		971A9A5E18D9C60800599610 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		971A9A6018D9C60800599610 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		971A9A6218D9C60800599610 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		971A9A6618D9C60800599610 /* MusicCaster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicCaster-Info.plist"; sourceTree = "<group>"; };
+		971A9A6818D9C60800599610 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		971A9A6A18D9C60800599610 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		971A9A6C18D9C60800599610 /* MusicCaster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicCaster-Prefix.pch"; sourceTree = "<group>"; };
+		971A9A6D18D9C60800599610 /* TPMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPMAppDelegate.h; sourceTree = "<group>"; };
+		971A9A6E18D9C60800599610 /* TPMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPMAppDelegate.m; sourceTree = "<group>"; };
+		971A9A7018D9C60800599610 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		971A9A7618D9C60800599610 /* MusicCasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicCasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		971A9A7718D9C60800599610 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		971A9A7F18D9C60800599610 /* MusicCasterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicCasterTests-Info.plist"; sourceTree = "<group>"; };
+		971A9A8118D9C60800599610 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		971A9A8318D9C60800599610 /* MusicCasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicCasterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		971A9A5818D9C60800599610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971A9A6118D9C60800599610 /* CoreGraphics.framework in Frameworks */,
+				971A9A6318D9C60800599610 /* UIKit.framework in Frameworks */,
+				971A9A5F18D9C60800599610 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971A9A7318D9C60800599610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971A9A7818D9C60800599610 /* XCTest.framework in Frameworks */,
+				971A9A7A18D9C60800599610 /* UIKit.framework in Frameworks */,
+				971A9A7918D9C60800599610 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		971A9A5218D9C60800599610 = {
+			isa = PBXGroup;
+			children = (
+				971A9A6418D9C60800599610 /* MusicCaster */,
+				971A9A7D18D9C60800599610 /* MusicCasterTests */,
+				971A9A5D18D9C60800599610 /* Frameworks */,
+				971A9A5C18D9C60800599610 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		971A9A5C18D9C60800599610 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				971A9A5B18D9C60800599610 /* MusicCaster.app */,
+				971A9A7618D9C60800599610 /* MusicCasterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		971A9A5D18D9C60800599610 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				971A9A5E18D9C60800599610 /* Foundation.framework */,
+				971A9A6018D9C60800599610 /* CoreGraphics.framework */,
+				971A9A6218D9C60800599610 /* UIKit.framework */,
+				971A9A7718D9C60800599610 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		971A9A6418D9C60800599610 /* MusicCaster */ = {
+			isa = PBXGroup;
+			children = (
+				971A9A6D18D9C60800599610 /* TPMAppDelegate.h */,
+				971A9A6E18D9C60800599610 /* TPMAppDelegate.m */,
+				971A9A7018D9C60800599610 /* Images.xcassets */,
+				971A9A6518D9C60800599610 /* Supporting Files */,
+			);
+			path = MusicCaster;
+			sourceTree = "<group>";
+		};
+		971A9A6518D9C60800599610 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				971A9A6618D9C60800599610 /* MusicCaster-Info.plist */,
+				971A9A6718D9C60800599610 /* InfoPlist.strings */,
+				971A9A6A18D9C60800599610 /* main.m */,
+				971A9A6C18D9C60800599610 /* MusicCaster-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		971A9A7D18D9C60800599610 /* MusicCasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				971A9A8318D9C60800599610 /* MusicCasterTests.m */,
+				971A9A7E18D9C60800599610 /* Supporting Files */,
+			);
+			path = MusicCasterTests;
+			sourceTree = "<group>";
+		};
+		971A9A7E18D9C60800599610 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				971A9A7F18D9C60800599610 /* MusicCasterTests-Info.plist */,
+				971A9A8018D9C60800599610 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		971A9A5A18D9C60800599610 /* MusicCaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971A9A8718D9C60800599610 /* Build configuration list for PBXNativeTarget "MusicCaster" */;
+			buildPhases = (
+				971A9A5718D9C60800599610 /* Sources */,
+				971A9A5818D9C60800599610 /* Frameworks */,
+				971A9A5918D9C60800599610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicCaster;
+			productName = MusicCaster;
+			productReference = 971A9A5B18D9C60800599610 /* MusicCaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		971A9A7518D9C60800599610 /* MusicCasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971A9A8A18D9C60800599610 /* Build configuration list for PBXNativeTarget "MusicCasterTests" */;
+			buildPhases = (
+				971A9A7218D9C60800599610 /* Sources */,
+				971A9A7318D9C60800599610 /* Frameworks */,
+				971A9A7418D9C60800599610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				971A9A7C18D9C60800599610 /* PBXTargetDependency */,
+			);
+			name = MusicCasterTests;
+			productName = MusicCasterTests;
+			productReference = 971A9A7618D9C60800599610 /* MusicCasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		971A9A5318D9C60800599610 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TPM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "East Agile";
+				TargetAttributes = {
+					971A9A7518D9C60800599610 = {
+						TestTargetID = 971A9A5A18D9C60800599610;
+					};
+				};
+			};
+			buildConfigurationList = 971A9A5618D9C60800599610 /* Build configuration list for PBXProject "MusicCaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 971A9A5218D9C60800599610;
+			productRefGroup = 971A9A5C18D9C60800599610 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				971A9A5A18D9C60800599610 /* MusicCaster */,
+				971A9A7518D9C60800599610 /* MusicCasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		971A9A5918D9C60800599610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971A9A6918D9C60800599610 /* InfoPlist.strings in Resources */,
+				971A9A7118D9C60800599610 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971A9A7418D9C60800599610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971A9A8218D9C60800599610 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		971A9A5718D9C60800599610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971A9A6F18D9C60800599610 /* TPMAppDelegate.m in Sources */,
+				971A9A6B18D9C60800599610 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971A9A7218D9C60800599610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971A9A8418D9C60800599610 /* MusicCasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		971A9A7C18D9C60800599610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 971A9A5A18D9C60800599610 /* MusicCaster */;
+			targetProxy = 971A9A7B18D9C60800599610 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		971A9A6718D9C60800599610 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				971A9A6818D9C60800599610 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		971A9A8018D9C60800599610 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				971A9A8118D9C60800599610 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		971A9A8518D9C60800599610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		971A9A8618D9C60800599610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		971A9A8818D9C60800599610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicCaster/MusicCaster-Prefix.pch";
+				INFOPLIST_FILE = "MusicCaster/MusicCaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		971A9A8918D9C60800599610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicCaster/MusicCaster-Prefix.pch";
+				INFOPLIST_FILE = "MusicCaster/MusicCaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		971A9A8B18D9C60800599610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MusicCaster.app/MusicCaster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicCaster/MusicCaster-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MusicCasterTests/MusicCasterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		971A9A8C18D9C60800599610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MusicCaster.app/MusicCaster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicCaster/MusicCaster-Prefix.pch";
+				INFOPLIST_FILE = "MusicCasterTests/MusicCasterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		971A9A5618D9C60800599610 /* Build configuration list for PBXProject "MusicCaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971A9A8518D9C60800599610 /* Debug */,
+				971A9A8618D9C60800599610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		971A9A8718D9C60800599610 /* Build configuration list for PBXNativeTarget "MusicCaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971A9A8818D9C60800599610 /* Debug */,
+				971A9A8918D9C60800599610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		971A9A8A18D9C60800599610 /* Build configuration list for PBXNativeTarget "MusicCasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971A9A8B18D9C60800599610 /* Debug */,
+				971A9A8C18D9C60800599610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 971A9A5318D9C60800599610 /* Project object */;
+}
