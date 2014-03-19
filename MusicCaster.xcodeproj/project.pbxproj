@@ -19,6 +19,8 @@
 		971A9A7A18D9C60800599610 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A9A6218D9C60800599610 /* UIKit.framework */; };
 		971A9A8218D9C60800599610 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 971A9A8018D9C60800599610 /* InfoPlist.strings */; };
 		971A9A8418D9C60800599610 /* MusicCasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 971A9A8318D9C60800599610 /* MusicCasterTests.m */; };
+		971A9A8F18D9C63600599610 /* TPMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 971A9A8E18D9C63600599610 /* TPMMainViewController.m */; };
+		971A9A9118D9C67A00599610 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A9A9018D9C67A00599610 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		971A9A7F18D9C60800599610 /* MusicCasterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicCasterTests-Info.plist"; sourceTree = "<group>"; };
 		971A9A8118D9C60800599610 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		971A9A8318D9C60800599610 /* MusicCasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicCasterTests.m; sourceTree = "<group>"; };
+		971A9A8D18D9C63600599610 /* TPMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPMMainViewController.h; sourceTree = "<group>"; };
+		971A9A8E18D9C63600599610 /* TPMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPMMainViewController.m; sourceTree = "<group>"; };
+		971A9A9018D9C67A00599610 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971A9A9118D9C67A00599610 /* MediaPlayer.framework in Frameworks */,
 				971A9A6118D9C60800599610 /* CoreGraphics.framework in Frameworks */,
 				971A9A6318D9C60800599610 /* UIKit.framework in Frameworks */,
 				971A9A5F18D9C60800599610 /* Foundation.framework in Frameworks */,
@@ -96,6 +102,7 @@
 		971A9A5D18D9C60800599610 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				971A9A9018D9C67A00599610 /* MediaPlayer.framework */,
 				971A9A5E18D9C60800599610 /* Foundation.framework */,
 				971A9A6018D9C60800599610 /* CoreGraphics.framework */,
 				971A9A6218D9C60800599610 /* UIKit.framework */,
@@ -111,6 +118,8 @@
 				971A9A6E18D9C60800599610 /* TPMAppDelegate.m */,
 				971A9A7018D9C60800599610 /* Images.xcassets */,
 				971A9A6518D9C60800599610 /* Supporting Files */,
+				971A9A8D18D9C63600599610 /* TPMMainViewController.h */,
+				971A9A8E18D9C63600599610 /* TPMMainViewController.m */,
 			);
 			path = MusicCaster;
 			sourceTree = "<group>";
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				971A9A6F18D9C60800599610 /* TPMAppDelegate.m in Sources */,
+				971A9A8F18D9C63600599610 /* TPMMainViewController.m in Sources */,
 				971A9A6B18D9C60800599610 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
